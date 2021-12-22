@@ -18,6 +18,11 @@
 			</li>
 		<?php } else{ ?>
 			<li>
+				<a href="view_cart.php">
+					Xem giỏ hàng
+				</a>
+			</li>
+			<li>
 				Chào <?php echo $_SESSION['name'] ?>, 
 				<a href="signout.php">
 					Đăng xuất
