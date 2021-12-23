@@ -1,4 +1,5 @@
 <?php 
+require '../check_admin_login.php'; 
 
 $id = $_POST['id'];
 $name = $_POST['name'];

@@ -1,4 +1,5 @@
 <?php 
+require '../check_admin_login.php'; 
 
 $name = addslashes($_POST['name']);
 $photo = $_FILES['photo'];

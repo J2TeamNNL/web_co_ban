@@ -1,3 +1,6 @@
+<?php 
+require '../check_super_admin_login.php'; 
+?>
 <!DOCTYPE html>
 <html>
 <head>
